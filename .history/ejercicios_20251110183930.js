@@ -298,7 +298,7 @@ function sumaMatriz(matriz) {
   // NecesitarÃ¡s dos bucles: uno para las filas y otro para las columnas
   let suma = 0;
   for (let i = 0; i < matriz.length; i++) {
-    for (let j = 0; j < matriz[i].length; j++) {
+    for (let j = 0; j < matriz[i].length; i++) {
       suma += matriz[i][j];
     }
   }
